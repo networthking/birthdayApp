@@ -16,9 +16,11 @@ while i > 0:
 	else:
 		print("Oh no! Lets start again! ")
 import datetime
-x = int(datetime.datetime(y, m, d))
-a = (x.strftime("%j"))
-y = int(datetime.datetime.now())
-b = (y.strftime("%j"))
+x = datetime.datetime(y, m, d)
+a = int(x.strftime("%j"))
+y = datetime.datetime.now()
+b = int(y.strftime("%j"))
 c = (a - b)
-print ("Your birthday is in " + c + " days! Congrats!")
+d = int(c)
+e = str(d)
+print ("Wow " + username + " ! only " + e + " days until your birthday!")
