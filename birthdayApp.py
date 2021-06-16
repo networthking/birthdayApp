@@ -1,3 +1,5 @@
+class comingOfageClass[]:
+	pass
 print("Welcome to the birthday countdown app. Lets see how many days is left until your birthday!")
 username = input("Please tell us your name:")
 i = 1
